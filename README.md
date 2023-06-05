@@ -1,56 +1,67 @@
-# -Order-Amount-Prediction
+# Order Amount Prediction
 
 This project aims to build a Machine Learning model to predict the order amount that customers can place in the upcoming days based on their past order information and behavior.
 
-(This project is an assignment for the HighRadius unpaid internship for the 2024 passing out batch.)
+<i>(This project is an assignment for the HighRadius unpaid internship for the 2024 passing out batch.) </i>
 
-Project Structure
+## Project Structure
 The project is structured as follows:
 
-data/ : This directory contains the dataset used for training and evaluation.
-README.md : This file provides an overview of the project and its objectives.
-Requirements
+- <b>data/</b> : This directory contains the [dataset](https://drive.google.com/uc?id=1n8uvqL9lkwVUgzvXWrTXzp2WKtVxAQWr&export=download) used for training and evaluation.
+- <b>README.md</b> : This file provides an overview of the project and its objectives.
+
+## Requirements
 The project requires the following packages to be installed:
 
-Pandas
-NumPy
-Scikit-learn
-Matplotlib
-Seaborn
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+
 To install these packages, you can run the following command:
 
+```bash
 pip install -r requirements.txt
-Milestones
+```
+
+## Milestones
 The project consists of several milestones, each focusing on a specific task. Here is a summary of the milestones:
 
-Data Sanity : In this milestone, we perform data cleaning and preprocessing tasks such as handling missing values, formatting date columns, removing inconsistent records, and converting currency values to USD.
+1. <b>[Data Sanity]</b>: In this milestone, we perform data cleaning and preprocessing tasks such as handling missing values, formatting date columns, removing inconsistent records, and converting currency values to USD.
 
-EDA (Exploratory Data Analysis) : This milestone involves analyzing the dataset to gain insights and understand the relationships between variables. We create visualizations such as histograms, pie charts, line plots, and box plots to explore different aspects of the data.
+1. <b>[EDA (Exploratory Data Analysis)]</b>: This milestone involves analyzing the dataset to gain insights and understand the relationships between variables. We create visualizations such as histograms, pie charts, line plots, and box plots to explore different aspects of the data.
 
-Feature Engineering and Selection : In this milestone, we perform feature engineering techniques such as encoding categorical variables, applying log transformations to continuous columns, and creating new features through grouping. We also analyze the correlation between variables using a heatmap and select relevant features for prediction.
+1. <b>[Feature Engineering and Selection]</b>: In this milestone, we perform feature engineering techniques such as encoding categorical variables, applying log transformations to continuous columns, and creating new features through grouping. We also analyze the correlation between variables using a heatmap and select relevant features for prediction.
 
-ML Models and Evaluations : This milestone focuses on building and evaluating different machine learning models for order amount prediction. We try various models such as Linear Regression, Support Vector Machine, Decision Tree, Random Forest, AdaBoost, and XGBoost. We perform model evaluations using metrics like Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-Squared. We compare the accuracies of the models and select the best-performing one. We also perform hyperparameter tuning to further improve the model's accuracy.
+1. <b>[ML Models and Evaluations]</b>: This milestone focuses on building and evaluating different machine learning models for order amount prediction. We try various models such as Linear Regression, Support Vector Machine, Decision Tree, Random Forest, AdaBoost, and XGBoost. We perform model evaluations using metrics like Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-Squared. We compare the accuracies of the models and select the best-performing one. We also perform hyperparameter tuning to further improve the model's accuracy.
 
-Please refer to the individual Jupyter notebooks in the notebooks/ directory for detailed explanations and code implementation for each milestone.
+Please refer to the individual Jupyter notebooks in the <b>notebooks/</b> directory for detailed explanations and code implementation for each milestone.
 
-Usage
+## Usage
 To use this project, follow these steps:
 
-Clone the repository to your local machine:
+1. Clone the repository to your local machine:
 
-git clone https://github.com/Sarandeep07/Order-Amount-Prediction.git
-Navigate to the project directory:
+    ```bash
+    git clone https://github.com/Sarandeep07/Order-Amount-Prediction.git
+    ```
 
-cd Order-Amount-Prediction
-Install the required packages:
+1. Navigate to the project directory:
 
-pip install -r requirements.txt
-Open the Jupyter notebooks in the notebooks/ directory to view and run the code for each milestone.
+    ```bash
+    cd Order-Amount-Prediction
+    ```
 
-Conclusion
+1. Install the required packages:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+1. Open the Jupyter notebooks in the notebooks/ directory to view and run the code for each milestone.
+
+## Conclusion
 This project provides a framework for predicting order amounts using Machine Learning techniques. By following the milestones and implementing the necessary tasks, you can build and evaluate models for order amount prediction. Feel free to customize and expand upon the project to suit your specific requirements.
 
 If you have any questions or need further assistance, please feel free to reach out.
-
-About
-Order Amount Prediction is a machine learning project that predicts customer order amounts based on past behavior. It includes milestones for data cleaning, exploratory data analysis, feature engineering, and model building. The framework can be customized to suit specific needs and provides insights for better decision-making.
