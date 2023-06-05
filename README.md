@@ -38,7 +38,7 @@ To use this project, follow these steps:
 
 Clone the repository to your local machine:
 
-git clone https://github.com/jaywyawhare/Order-Amount-Prediction.git
+git clone https://github.com/Sarandeep07/Order-Amount-Prediction.git
 Navigate to the project directory:
 
 cd Order-Amount-Prediction
